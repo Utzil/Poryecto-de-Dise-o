@@ -1,0 +1,3 @@
+Nombre de la base de datos: Sivopia
+Nombre de usuario: sivopia
+Contraseña: sivopia

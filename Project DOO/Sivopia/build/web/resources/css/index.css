@@ -1,0 +1,78 @@
+.mnu {
+    background-color: #145e9e;
+    padding: 1rem 15px;
+}
+
+.mnu * {
+    display: inline-block;
+}
+
+.username {
+    color: white;
+}
+
+.signout:hover {
+    background-color: indianred !important;
+}
+
+.logIn {
+    color: white;
+    text-decoration: none;
+}
+
+.info-candidates {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    padding: 2.5rem 0;
+}
+
+.winner,
+.candidates {
+    padding: 0 15px;
+}
+
+.winner {
+    align-items: center;
+    display: flex;
+    flex: 15%;
+    flex-direction: column;
+}
+
+.winner-wrapper {
+    align-items: center;
+    display: flex;
+    flex: 100%;
+}
+
+.winner-wrapper .candidate-name {
+    color: #1f88ff;
+    font-size: 2rem;
+    flex-wrap: wrap;
+}
+
+.winner-wrapper .candidates-names {
+    color: #1f88ff;
+    font-size: 1.4rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.candidates {
+    flex: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #1f88ff12;
+}

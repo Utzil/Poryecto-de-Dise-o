@@ -1,0 +1,89 @@
+body {
+    background: #145e9e;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.frm-account {
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.33);
+}
+
+.options-account {
+    /*    border-bottom: 1px solid rgba(0, 0, 0, 0.12);*/
+    display: flex;
+    flex-direction: row;
+}
+
+.op-account {
+    align-items: center;
+    background-color: rgb(31, 136, 288);
+    color: white;
+    display: flex;
+    flex: 100%;
+    justify-content: center;
+    min-width: 81px;
+    padding: 1rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.op-account:hover:not(.op-account-active) {
+    background-color: rgb(20, 94, 158);
+}
+
+.op-account-active {
+    background-color: white;
+    color: rgb(31, 136, 288);
+}
+
+.frm-account-wrapper {
+    padding: 1.5rem;
+}
+
+.login,
+.signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login .login-wrapper *,
+.signup .signup-wrapper *{
+    margin-bottom: 1rem;
+}
+
+.login .login-wrapper img,
+.signup .signup-wrapper img {
+    margin: 1rem auto 2rem auto;
+}
+
+.login .login-wrapper input[type="text"],
+.login .login-wrapper input[type="password"],
+.signup .signup-wrapper input[type="text"],
+.signup .signup-wrapper input[type="password"]{
+    width: 15rem;
+}
+
+.login .login-wrapper input[type="submit"], 
+.signup .signup-wrapper input[type="submit"] {
+    margin-left: auto;
+}
+
+.title {
+    margin-bottom: 1rem !important;
+}
+
+.sub-title {
+    margin-bottom: 2rem !important;
+}
+
+.vote {
+    color: orange;
+}

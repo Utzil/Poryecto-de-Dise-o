@@ -1,0 +1,15 @@
+.content-error {
+    padding: 15px;
+}
+
+.error {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+}
+
+.error .error-message {
+    color: indianred;
+    margin: 1rem 0;
+}
